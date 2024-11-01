@@ -1,56 +1,13 @@
 1. What are the top 10 channels by subscriber count?
-Recommended Visual: Bar Chart
-Plot a bar chart displaying the top 10 channels by subscriber count, sorted in descending order.
-This will highlight the most popular channels in terms of subscribers.
 
 2. What is the distribution of grades across channels?
-Recommended Visual: Pie Chart or Donut Chart
-Use a pie chart or donut chart to visualize the distribution of grades among the channels, 
-showing the proportion of each grade. Alternatively, use a bar chart if you prefer a more straightforward visual.
 
 3. What is the relationship between the number of video uploads and subscribers?
-Recommended Visual: Scatter Chart
-Create a scatter plot with "Video Uploads" on the x-axis and "Subscribers" on the y-axis. 
-This visual will help you see if there's a trend or correlation between content volume and subscriber count.
 
 4. Which channels have the highest average views per video?
-Recommended Visual: Bar Chart or Table
-Use a bar chart to display the top 10 channels with the highest average views per video, or a table with conditional 
-formatting to highlight the highest averages. This shows which channels have the most engagement per video.
 
 5. How does the number of video uploads vary with total video views?
-Recommended Visual: Scatter Chart
-Create a scatter plot with "Video Uploads" on the x-axis and "Video Views" on the y-axis. 
-This will allow you to explore if there is a pattern or correlation between uploads and total views.
 
-----------------------------------------------------------------------------------------------------------
-6. What is the distribution of average views per video across channels?
-Recommended Visual: Histogram
-Use a histogram to display the distribution of average views per video. 
-This can help you see if there are common ranges or outliers in average views per video. 
-If Power BI doesn’t support histograms directly, use a bar chart with binning applied to the "Average Views" column.
-----------------------------------------------------------------------------------------------------------
+6. How do the top channels compare in terms of engagement (average views per video)?
 
-7. What is the relationship between subscribers and video views?
-Recommended Visual: Scatter Chart with Trend Line
-Use a scatter chart with "Subscribers" on the x-axis and "Video Views" on the y-axis, 
-and add a trend line to identify the correlation between these two metrics. 
-This helps you understand if more subscribers typically mean more views.
-
-8. How do the top channels compare in terms of engagement (average views per video)?
-Recommended Visual: Bar Chart or Stacked Column Chart
-Create a bar chart to compare average views per video for the top 10 ranked channels. 
-This will help you see if high-ranking channels also have high engagement on average.
-
-9. How do the top 5000 channels distribute by rank across grades?
-Recommended Visual: Box and Whisker Chart or Violin Plot (if available, otherwise a Clustered Column Chart)
-Use a box and whisker chart or a violin plot to show the distribution of ranks within each grade. 
-If these visuals aren’t available in Power BI, use a clustered column chart with rank bins to represent each grade.
-
-10. Which grades dominate in terms of total video views?
-Recommended Visual: Stacked Bar Chart or Treemap
-Aggregate "Video Views" by grade and use a stacked bar chart or treemap to display which grades 
-contribute the most to total views. This visual shows the influence of each grade on overall YouTube views.
-
-Each of these visuals can be created with Power BI's built-in features, and you can add interactivity (e.g., slicers) 
-to filter by additional dimensions like region, channel name, or upload frequency for more detailed insights.
+7. Which grades dominate in terms of total video views?
